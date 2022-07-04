@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "upper-line": "мы",
+      "middle-line": "1",
+      "bottom-line": "на рынке"
+    },
+    {
+      "id": "2",
+      "upper-line": "гарантируем",
+      "middle-line": "50%",
+      "bottom-line": "безопасность"
+    },
+    {
+      "id": "3",
+      "upper-line": "календарик за",
+      "middle-line": "2001",
+      "bottom-line": "в подарок"
+    },
+    {
+      "id": "4",
+      "upper-line": "путешествие",
+      "middle-line": "597",
+      "bottom-line": "дней"
+    }
+  ]
+}
