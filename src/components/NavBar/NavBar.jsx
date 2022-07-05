@@ -22,7 +22,7 @@ const Navbar = () => {
       <div
         className={color ? "header container header-bg" : "header container "}
       >
-        <Link to="/">
+        <Link to="/testovoe_Elon">
           <picture>
             <source srcSet={small} media="(max-width: 1240px)" />
             <img src={big} alt="" />
@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-menu__item">
-            <Link to="/">Главная</Link>
+            <Link to="/testovoe_Elon">Главная</Link>
           </li>
           <li className="nav-menu__item">
             <Link to="/technologies">Технология</Link>

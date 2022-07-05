@@ -14,7 +14,7 @@ function App() {
     <>
       <Suspense fallback={<div>Ждите...☻</div>}>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/testovoe_Elon" element={<HomePage />} />
           <Route path="/technologies" element={<Technologies />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/guarantee" element={<Guarantee />} />

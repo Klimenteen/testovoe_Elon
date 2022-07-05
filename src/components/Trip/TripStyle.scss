@@ -1,4 +1,7 @@
 .trip-offer {
+  a{
+    text-decoration: none;
+  }
   &__line{
     position: absolute;
     left: 198px;
@@ -7,6 +10,7 @@
   }
   &__text-content {
     margin-bottom: 68px;
+    
     h1 {
       font-family: "MuseoSansCyrl-700";
       font-size: 58px;

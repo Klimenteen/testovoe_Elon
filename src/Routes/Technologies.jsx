@@ -5,7 +5,7 @@ const Technologies = () => {
   return (
     <div>
     <div>Technologies</div>
-    <Link to="/">домой ☻</Link>
+    <Link to="/testovoe_Elon">домой ☻</Link>
 
     </div>
   )

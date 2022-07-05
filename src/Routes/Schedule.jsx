@@ -5,7 +5,7 @@ const Schedule = () => {
   return (
     <div>
     <div>Schedule</div>
-    <Link to="/">домой ☻</Link>
+    <Link to="/testovoe_Elon">домой ☻</Link>
     </div>
   )
 }

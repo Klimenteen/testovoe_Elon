@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+
 import "./TripStyle.scss";
 import line from "../../assets/line.png";
 
@@ -9,7 +12,7 @@ const Trip = () => {
         <h1>ПУТЕШЕСТВИЕ</h1>
         <p>НА КРАСНУЮ ПЛАНЕТУ</p>
       </div>
-      <button className="trip-offer__button">Начать путешествие</button>
+      <Link to="/schedule"><button className="trip-offer__button">Начать путешествие</button></Link> 
 
       <img src={line} alt="" className="trip-offer__line" />
     </div>
