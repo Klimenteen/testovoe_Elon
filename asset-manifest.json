@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/testovoe_Elon/static/css/main.022c5917.css",
+    "main.css": "/testovoe_Elon/static/css/main.33ef3135.css",
     "main.js": "/testovoe_Elon/static/js/main.e21dbdb2.js",
     "static/media/hero.png": "/testovoe_Elon/static/media/hero.d274486cdd647019e470.png",
     "static/media/planeta_obezyan.png": "/testovoe_Elon/static/media/planeta_obezyan.eb69379c63ec0533bb4c.png",
@@ -9,11 +9,11 @@
     "static/media/museosanscyrl-100.ttf": "/testovoe_Elon/static/media/museosanscyrl-100.5363469df315b5a16118.ttf",
     "static/media/museosanscyrl-700.ttf": "/testovoe_Elon/static/media/museosanscyrl-700.d517f62e41d9a4dab324.ttf",
     "index.html": "/testovoe_Elon/index.html",
-    "main.022c5917.css.map": "/testovoe_Elon/static/css/main.022c5917.css.map",
+    "main.33ef3135.css.map": "/testovoe_Elon/static/css/main.33ef3135.css.map",
     "main.e21dbdb2.js.map": "/testovoe_Elon/static/js/main.e21dbdb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.022c5917.css",
+    "static/css/main.33ef3135.css",
     "static/js/main.e21dbdb2.js"
   ]
 }
