@@ -1,0 +1,136 @@
+.trip-offer {
+  &__line{
+    position: absolute;
+    left: 198px;
+    top: 180px;
+    z-index: 3;
+  }
+  &__text-content {
+    margin-bottom: 68px;
+    h1 {
+      font-family: "MuseoSansCyrl-700";
+      font-size: 58px;
+      background: linear-gradient(to right, rgba(255,255,255,1) 12%, rgba(255,87,35,1) 100%);;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0 ;
+    }
+    p {
+      font-family: "MuseoSansCyrl-700";
+      font-size: 25px;
+      background: linear-gradient(to right, rgba(255,255,255,1) 12%, rgba(255,87,35,1) 100%);;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+    }
+  }
+  &__button {
+    color: #909296;
+    background-color: #15161e;
+    width: 180px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right top,#24599c 10%,  transparent 50%, transparent 50%, #24599c 90%);
+    border-image-slice: 1;
+    position: relative;
+    
+  cursor: pointer;
+  &:hover{
+    background-color: inherit;
+    backdrop-filter: blur(8px);
+    z-index: 3;
+
+  }
+  &::before{
+    display: block;
+    width: 1px; 
+    height: 1px;
+    left: -17px;
+    bottom: 17px;
+    position: absolute;
+    content: url('../../assets/01.png');
+  }  
+  &::after{
+    display: block;
+    width: 1px; 
+    height: 1px;
+    right: 17px;
+    top: -17px;
+    position: absolute;
+    content: url('../../assets/02.png');
+  }  
+
+
+}
+ 
+}
+
+
+@media screen and (max-width:1149px) {
+  .trip-offer__button{
+  width: 410px;
+  height: 55px;
+  }
+}
+
+@media screen and (max-width:1259px) {
+  .trip-offer__line{
+      display: none;
+  }
+  .trip-offer__button{
+  margin: 0 auto 15px auto;
+  }
+  .trip-offer__text-content{
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:440px) {
+  .trip-offer__line{
+      display: none;
+  }
+  .trip-offer__button{
+  margin: 0 auto 15px auto;
+  }
+  .trip-offer__text-content{
+    margin-bottom: 20px;
+  }
+  .trip-offer__text-content {
+    h1 {
+      width: 311px;
+      margin: 0 auto;
+      font-size: 42px;
+      
+    }
+    p{
+      width: 290px;
+      margin: 0 auto;
+
+    }
+  }
+  .trip-offer{
+    width: 100%;
+  }
+  .trip-offer__button{
+    width: 100%;
+    }
+}
+
+@media screen and (max-width:356px) {
+
+.trip-offer__text-content{
+  h1{
+    font-size: 32px;
+    max-width: 100%;
+  }
+  p{
+    font-size: 20px;
+    max-width: 100%;
+  }
+}
+}

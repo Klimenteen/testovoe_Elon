@@ -2,27 +2,31 @@
   "data": [
     {
       "id": "1",
-      "upper-line": "мы",
-      "middle-line": "1",
-      "bottom-line": "на рынке"
+      "upper": "мы",
+      "middle": "1",
+      "bottom": "на рынке",
+      "expanded":"80081"
     },
     {
       "id": "2",
-      "upper-line": "гарантируем",
-      "middle-line": "50%",
-      "bottom-line": "безопасность"
+      "upper": "гарантируем",
+      "middle": "50%",
+      "bottom": "безопасность",
+      "expanded":"80082"
     },
     {
       "id": "3",
-      "upper-line": "календарик за",
-      "middle-line": "2001",
-      "bottom-line": "в подарок"
+      "upper": "календарик за",
+      "middle": "2001",
+      "bottom": "в подарок",
+      "expanded":"80083"
     },
     {
       "id": "4",
-      "upper-line": "путешествие",
-      "middle-line": "597",
-      "bottom-line": "дней"
+      "upper": "путешествие",
+      "middle": "597",
+      "bottom": "дней",
+      "expanded":"80085"
     }
   ]
 }

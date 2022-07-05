@@ -1,6 +1,36 @@
-.hero {
+.hero-screen {
   min-height: 100%;
-  min-height:660px ;
+  min-height: 660px;
   background-image: url("../../assets/hero.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  box-sizing: border-box;
+  padding: 100px 2rem 0 2rem;
+  display: flex;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  &__planet {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% - 48px));
+    z-index: 2;
+  }
+}
+@media screen and (max-width: 1149px) {
+  .hero-screen__planet {
+    display: none;
+  }
+  .hero-screen__container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

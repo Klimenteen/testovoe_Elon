@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavBarStyles.scss";
-import small from '../../assets/header-logo-small.png'
-import big from '../../assets/header-logo.png'
+import small from "../../assets/header-logo-small.png";
+import big from "../../assets/header-logo.png";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -24,10 +24,7 @@ const Navbar = () => {
       >
         <Link to="/">
           <picture>
-            <source
-              srcSet={small}
-              media="(max-width: 1240px)"
-            />
+            <source srcSet={small} media="(max-width: 1240px)" />
             <img src={big} alt="" />
           </picture>
         </Link>

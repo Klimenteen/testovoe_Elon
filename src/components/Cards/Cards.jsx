@@ -10,25 +10,51 @@ const Cards = () => {
         return response.json();
       })
       .then((data) => {
-        setCards(data.data);
+        setTimeout(() => {
+          setCards(data.data);
+        }, 1500);
       });
   }, []);
 
   return (
-    <>
+    <div className="cards-container">
       {cards.length > 0 ? (
-        <div className="cards-container">
+        <>
           {" "}
           {cards.map((card, i) => {
-            return <Card 
-            key={i}
-            />;
+            return (
+              <Card
+                key={i}
+                context={i}
+                title={card.upper}
+                content={card.middle}
+                subcontent={card.bottom}
+                expanded={card.expanded}
+              />
+            );
           })}
-        </div>
+        </>
       ) : (
-        ""
+        <>
+          <div className="lds-ripple">
+            <div></div>
+            <div></div>
+          </div>
+          <div className="lds-ripple">
+            <div></div>
+            <div></div>
+          </div>
+          <div className="lds-ripple">
+            <div></div>
+            <div></div>
+          </div>
+          <div className="lds-ripple">
+            <div></div>
+            <div></div>
+          </div>
+        </>
       )}
-    </>
+    </div>
   );
 };
 
