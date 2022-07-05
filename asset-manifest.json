@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/testovoe_spaceX/static/css/main.8dc53ab0.css",
-    "main.js": "/testovoe_spaceX/static/js/main.3dbf09d0.js",
-    "static/media/hero.png": "/testovoe_spaceX/static/media/hero.d274486cdd647019e470.png",
-    "static/media/planeta_obezyan.png": "/testovoe_spaceX/static/media/planeta_obezyan.eb69379c63ec0533bb4c.png",
-    "static/media/museosanscyrl-300.ttf": "/testovoe_spaceX/static/media/museosanscyrl-300.b89d2aed072b957f2e03.ttf",
-    "static/media/museosanscyrl-500.ttf": "/testovoe_spaceX/static/media/museosanscyrl-500.c3622b581e522596d16e.ttf",
-    "static/media/museosanscyrl-100.ttf": "/testovoe_spaceX/static/media/museosanscyrl-100.5363469df315b5a16118.ttf",
-    "static/media/museosanscyrl-700.ttf": "/testovoe_spaceX/static/media/museosanscyrl-700.d517f62e41d9a4dab324.ttf",
-    "index.html": "/testovoe_spaceX/index.html",
-    "main.8dc53ab0.css.map": "/testovoe_spaceX/static/css/main.8dc53ab0.css.map",
-    "main.3dbf09d0.js.map": "/testovoe_spaceX/static/js/main.3dbf09d0.js.map"
+    "main.css": "/testovoe_Elon/static/css/main.022c5917.css",
+    "main.js": "/testovoe_Elon/static/js/main.d0ed936f.js",
+    "static/media/hero.png": "/testovoe_Elon/static/media/hero.d274486cdd647019e470.png",
+    "static/media/planeta_obezyan.png": "/testovoe_Elon/static/media/planeta_obezyan.eb69379c63ec0533bb4c.png",
+    "static/media/museosanscyrl-300.ttf": "/testovoe_Elon/static/media/museosanscyrl-300.b89d2aed072b957f2e03.ttf",
+    "static/media/museosanscyrl-500.ttf": "/testovoe_Elon/static/media/museosanscyrl-500.c3622b581e522596d16e.ttf",
+    "static/media/museosanscyrl-100.ttf": "/testovoe_Elon/static/media/museosanscyrl-100.5363469df315b5a16118.ttf",
+    "static/media/museosanscyrl-700.ttf": "/testovoe_Elon/static/media/museosanscyrl-700.d517f62e41d9a4dab324.ttf",
+    "index.html": "/testovoe_Elon/index.html",
+    "main.022c5917.css.map": "/testovoe_Elon/static/css/main.022c5917.css.map",
+    "main.d0ed936f.js.map": "/testovoe_Elon/static/js/main.d0ed936f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dc53ab0.css",
-    "static/js/main.3dbf09d0.js"
+    "static/css/main.022c5917.css",
+    "static/js/main.d0ed936f.js"
   ]
 }
