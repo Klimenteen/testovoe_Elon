@@ -1,22 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "./NavBarStyles.scss";
 import small from "../../assets/header-logo-small.png";
 import big from "../../assets/header-logo.png";
+import "./NavBarStyles.scss";
+import { navBarContent } from "./navBarContent";
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 100) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
+    if (window.scrollY >= 100) setColor(true);
+    else setColor(false);
   };
-  window.addEventListener("scroll", changeColor);
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+
+    return () => {
+      window.removeEventListener("scroll", changeColor);
+    };
+  }, []);
+
   return (
     <div className="header-container">
       <div
@@ -30,24 +35,11 @@ const Navbar = () => {
         </Link>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-menu__item">
-            <Link to="/testovoe_Elon">Главная</Link>
-          </li>
-          <li className="nav-menu__item">
-            <Link to="/technologies">Технология</Link>
-          </li>
-          <li className="nav-menu__item">
-            <Link to="/schedule">График полетов</Link>
-          </li>
-          <li className="nav-menu__item">
-            <Link to="/guarantee">Гарантии</Link>
-          </li>
-          <li className="nav-menu__item">
-            <Link to="/about">О компании</Link>
-          </li>
-          <li className="nav-menu__item">
-            <Link to="/contact">Контакты</Link>
-          </li>
+          {navBarContent.map((e, index) => (
+            <li className="nav-menu__item" key={index}>
+              <Link to={e.path}>{e.title}</Link>
+            </li>
+          ))}
         </ul>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
